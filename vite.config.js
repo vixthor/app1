@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
-
+import { resolve } from 'path';
 export default defineConfig({
     plugins: [
         laravel({
@@ -11,4 +11,9 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    resolve: {
+        alias: {
+             '$': 'jquery', // Optional: Helps with cleaner imports
+        },
+    },
 });

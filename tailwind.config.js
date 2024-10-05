@@ -11,8 +11,15 @@ export default {
 
     theme: {
         extend: {
+            colors: {
+                'button-blue': "#1E90FF",
+                'background-blue': '#003366',
+            },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                'montserrat': ['Montserrat'],
+                'lato': ['Lato'],
+                'garamond': ['Garamond']
             },
         },
     },
