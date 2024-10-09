@@ -66,14 +66,45 @@ $(document).ready(function () {
                 breakpoint: 768,      // Adjust settings for mobile screens
                 settings: {
                     slidesToShow: 1,
-                    centerPadding: '30px',
+                    // centerPadding: '30px',
+                    centerMode: false,
                 },
             },
             {
                 breakpoint: 1024,     // Adjust settings for tablet screens
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     // centerPadding: '40px',
+                },
+            },
+        ],
+    });
+    $('.slick-carousel2').slick({
+        dots: false,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 2,              // Display 3 images at a time
+        slidesToScroll: 1,
+        centerMode: true,             // Center the active slide
+        centerPadding: '300px',        // Show 60px of the side slides
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+        responsive: [
+            {
+                breakpoint: 768,      // Adjust settings for mobile screens
+                settings: {
+                    slidesToShow: 1,
+                    // centerPadding: '30px',
+                    centerMode: false,
+                },
+            },
+            {
+                breakpoint: 1024,     // Adjust settings for tablet screens
+                settings: {
+                    slidesToShow: 2,
+                    // centerPadding: '40px',
+                    centerMode: false,
                 },
             },
         ],

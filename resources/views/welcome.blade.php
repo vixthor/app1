@@ -57,9 +57,10 @@
                         
                         </nav>
                         <div class="mx-auto max-w-7xl my-10 flex flex-col items-center gap-y-9 text-center">
-                            <h1 class="font-bold text-5xl">Empowering Nigeria's Energy Future</h1>
-                            <h2 class="font-medium text-4xl mb-4">Driving Sustainable Growth and Innovation in the Oil & Gas Industry</h2>
-                            <p class="font-normal text-2xl text-center">As a leading force in Nigeria's oil and gas sector, we are committed to powering the nation's progress through responsible energy production, advanced technologies, and community-driven initiatives. Explore our operations, discover our latest projects, and join us on our journey to create a sustainable future for generations to come.</p>
+                            <x-h1>Empowering Nigeria's Energy Future </x-h1>
+                           
+                            <x-h2 class="font-medium text-4xl mb-4">Driving Sustainable Growth and Innovation in the Oil & Gas Industry</x-h2>
+                            <x-p class="font-normal text-center">As a leading force in Nigeria's oil and gas sector, we are committed to powering the nation's progress through responsible energy production, advanced technologies, and community-driven initiatives. Explore our operations, discover our latest projects, and join us on our journey to create a sustainable future for generations to come.</x-p>
 
                             <a class="bg-button-blue text-white px-6 py-4 mt-4 rounded-lg" href="">Learn More </a>
                             <div>
@@ -68,61 +69,119 @@
                             </div>
                         </div>
                     </header>
-                    {{-- <img src="{{ asset('images/home/carousel1.svg') }}" alt="Slide 1"> --}}
+               
     <main class="mt-6">
-       {{-- <div class="swiper-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide"><img src="https://via.placeholder.com/600x400?text=Slide+1" alt="Slide 1"></div>
-                <div class="swiper-slide"><img src="https://via.placeholder.com/600x400?text=Slide+2" alt="Slide 2"></div>
-                <div class="swiper-slide"><img src="https://via.placeholder.com/600x400?text=Slide+3" alt="Slide 3"></div>
-                <div class="swiper-slide"><img src="https://via.placeholder.com/600x400?text=Slide+4" alt="Slide 4"></div>
-                <div class="swiper-slide"><img src="https://via.placeholder.com/600x400?text=Slide+5" alt="Slide 5"></div>
-            </div>
-            
-            <!-- Swiper Navigation Buttons -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            
-            <!-- Swiper Pagination -->
-            <div class="swiper-pagination"></div>
-    </div>  --}}
+ 
     <div class=" ">
-         <div class="slick-carousel py-20 mb-20">
-        <div><img src="{{ asset('images/home/carousel1.svg') }}" alt="Image 1"></div>
-        <div><img src="{{ asset('images/home/carousel2.svg') }}" alt="Image 2"></div>
-        <div><img src="{{ asset('images/home/image.svg') }}" alt="Image 3"></div>
-        <div><img src="{{ asset('images/home/carousel1.svg') }}" alt="Image 3"></div>
-        <div><img src="{{ asset('images/home/carousel1.svg') }}" alt="Image 3"></div>
-        <div><img src="{{ asset('images/home/carousel1.svg') }}" alt="Image 3"></div>
-    </div>
+        <div class="slick-carousel py-20 mb-20">
+            <div><img src="{{ asset('images/home/carousel1.svg') }}" alt="Image 1"></div>
+            <div><img src="{{ asset('images/home/carousel2.svg') }}" alt="Image 2"></div>
+            <div><img src="{{ asset('images/home/image.svg') }}" alt="Image 3"></div>
+            <div><img src="{{ asset('images/home/carousel1.svg') }}" alt="Image 3"></div>
+            <div><img src="{{ asset('images/home/carousel1.svg') }}" alt="Image 3"></div>
+            <div><img src="{{ asset('images/home/carousel1.svg') }}" alt="Image 3"></div>
+        </div>
     </div>
     <div class="flex flex-col mx-auto items-center max-w-7xl gap-y-5">
-        <h2 class="font-bold text-6xl">What We Do</h2>
+        <x-h3 >What We Do</x-h3>
         <img src="{{ asset('images/home/line_8.svg') }}" alt="">
-        <p class="fony-thin text-2xl text-center">At [Company Name], we are at the forefront of Nigeria's energy industry, delivering world-class solutions across the entire oil and gas value chain. Our commitment to innovation, sustainability, and operational excellence drives our business, ensuring that we meet the energy needs of today while paving the way for a more sustainable tomorrow.</p>
-        <div>
-            <div>
-                   <div class="text-black">
-            
-        </div> 
-            </div>  
-             
-        </div>   
+        <x-p class="fony-thin text-center">At [Company Name], we are at the forefront of Nigeria's energy industry, delivering world-class solutions across the entire oil and gas value chain. Our commitment to innovation, sustainability, and operational excellence drives our business, ensuring that we meet the energy needs of today while paving the way for a more sustainable tomorrow.</x-p>
+         
         
-    </div>     
-     <div class="bg-background-blue  font-bold text-white w-full text-left py-32 px-7">
+    </div>
+     
+            
+                <div class="text-black p-20 gap-y-8 flex justify-center w-full mx-auto mb-32">
+                    <div class="font-semibold text-5xl text-center flex  flex-col gap-y-3 p-10 border-r-2">
+                         <h3><span class="countup" data-end-value="10">0</span> Years </h3>
+                        <p class="text-2xl">Over <span class="countup" data-end-value="10">0</span> years in the <br> field </p>
+                    </div>
+                    <div class="font-semibold text-5xl text-center flex  flex-col gap-y-3 p-10 border-r-2">
+                         <h3><span class="countup" data-end-value="10">0</span> Years </h3>
+                        <p class="text-2xl">Over <span class="countup" data-end-value="10">0</span> years in the <br> field </p>
+                    </div>
+                    <div class="font-semibold text-5xl text-center flex  flex-col gap-y-3 p-10 border-r-2">
+                         <h3><span class="countup" data-end-value="10">0</span> Years </h3>
+                        <p class="text-2xl">Over <span class="countup" data-end-value="10">0</span> years in the <br> field </p>
+                    </div>
+                    <div class="font-semibold text-5xl text-center flex  flex-col gap-y-3 p-10 border-r-2">
+                         <h3><span class="countup" data-end-value="10">0</span> Years </h3>
+                        <p class="text-2xl">Over <span class="countup" data-end-value="10">0</span> years in the <br> field </p>
+                    </div>
+                    <div class="font-semibold text-5xl text-center flex  flex-col gap-y-3 p-10 border-r-2">
+                         <h3><span class="countup" data-end-value="10">0</span> Years </h3>
+                        <p class="text-2xl">Over <span class="countup" data-end-value="10">0</span> years in the <br> field </p>
+                    </div>
+                   
+                       
+                </div> 
+             
+             
+             
+     <div class="bg-background-blue  font-bold text-white w-full text-left py-32 px-7 mb-20">
                     <p class="text-6xl leading-snug">With a presence in over 20 countries we <br> are a significant industry leader in the oil <br> industry space. Join us in making Africa <br>
                     an oil giant in charge of it’s own <br> resources.</p>     
         </div> 
 
-        <div class="my-28 flex flex-col mx-auto items-center max-w-7xl gap-y-5">
-            <h2 class="font-bold text-6xl">What We Offer</h2>
-        <img src="{{ asset('images/home/line_8.svg') }}" alt="">
-        <p class="font-light text-2xl text-center">At [Company Name], we are at the forefront of Nigeria's energy industry, delivering world-class solutions across the entire oil and gas value chain. Our commitment to innovation, sustainability, and operational excellence drives our business, ensuring that we meet the energy needs of today while paving the way for a more sustainable tomorrow.</p>
+        <div class=" flex flex-col mx-auto items-center max-w-7xl gap-y-5">
+            <x-h3 class="font-bold text-6xl">What We Offer</x-h3>
+            <img src="{{ asset('images/home/line_8.svg') }}" alt="">
+          
         </div>
-             <span class="countup" data-end-value="1000">0</span>
-            <p>Visitors</p>         
-                    </main>
+        <div class=" mx-auto mb-48">
+            <x-offers>
+                <x-slot:title>
+                    Monthly Meetups
+                </x-slot>
+                Our cornerstone event, held on the last Friday of every month, featuring keynote speakers, <br> panel discussions, and ample networking opportunities.
+            </x-offers>
+             <x-offers>
+                <x-slot:title>
+                    Diverse Network
+                </x-slot>
+                Connect with a wide range of professionals, from early-stage founders to seasoned <br>entrepreneurs, investors, and industry experts.
+            </x-offers>
+             <x-offers>
+                <x-slot:title>
+                    Knowledge Sharing
+                </x-slot>
+                Connect with a wide range of professionals, from early-stage founders to seasoned <br>entrepreneurs, investors, and industry experts.
+            </x-offers>
+             <x-offers>
+                <x-slot:title>
+                    Collaboration <br>  Opportunities
+                </x-slot>
+                Find potential co-founders, mentors, or partners for your next big venture.
+            </x-offers>
+             <x-offers>
+                <x-slot:title>
+                    Community Support
+                </x-slot>
+                Be part of a supportive ecosystem that celebrates successes and provides guidance <br> through challenges.
+            </x-offers>
+
+        </div>
+        <div>
+            <div class=" flex flex-col mx-auto items-center max-w-7xl gap-y-5">
+                <x-h3 class="font-bold text-6xl">Who We Are</x-h3>
+                <img src="{{ asset('images/home/line_8.svg') }}" alt="">
+            </div>
+            <div class=" ">
+        <div class="slick-carousel2 py-20 mb-20">
+           
+            <div class="flex flex-col items-center">
+                <img src="{{ asset('images/home/whoweare1.svg') }}" alt="Image 2">
+                <h2 class="text-center">Critical Thinkers</h2>
+            </div>
+            <div><img src="{{ asset('images/home/whoweare2.svg') }}" alt="Image 3"></div>
+            <div><img src="{{ asset('images/home/whoweare3.svg') }}" alt="Image 3"></div>
+            <div><img src="{{ asset('images/home/whoweare4.svg') }}" alt="Image 3"></div>
+           
+        </div>
+    </div>
+        </div>          
+        
+    </main>
 
                        {{-- @if (Route::has('login'))
                             <nav class="-mx-3 flex flex-1 justify-end">
