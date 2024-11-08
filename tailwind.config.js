@@ -13,7 +13,7 @@ export default {
         extend: {
             colors: {
                 'button-blue': "#1E90FF",
-                'background-blue': '#003366',
+                'background-yellow': '#838385',
             },
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],

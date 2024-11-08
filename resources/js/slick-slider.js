@@ -59,15 +59,17 @@ $(document).ready(function () {
         centerMode: true,             // Center the active slide
         centerPadding: '250px',        // Show 60px of the side slides
         autoplay: true,
-        autoplaySpeed: 2000,
-        arrows: true,
+        autoplaySpeed: 4000,
+        arrows: false,
         responsive: [
             {
                 breakpoint: 768,      // Adjust settings for mobile screens
                 settings: {
                     slidesToShow: 1,
                     // centerPadding: '30px',
-                    centerMode: false,
+                    centerMode: false, 
+                    arrows: true,
+                    dots : true,
                 },
             },
             {
