@@ -1,4 +1,4 @@
-<div class="w-full mt-20">    <!-- I have not failed. I've just found 10,000 ways that won't work. - Thomas Edison -->
+<div class="w-full mt-20 dark:text-white dark:bg-gray-900">    <!-- I have not failed. I've just found 10,000 ways that won't work. - Thomas Edison -->
     <div class=" flex flex-col mx-auto items-center max-w-7xl gap-y-5">
                 <x-h3 class="font-bold text-6xl">Investor Relations</x-h3>
                 <img src="{{ asset('images/home/line_8.svg') }}" alt="erer">
@@ -7,7 +7,7 @@
         
 
     </div>
-        <div class="slick-carousel py-20 mb-20  text-white">
+        <div class="overflow-x-hidden slick-carousel py-20 mb-20  text-white">
             <div class="p-2">
                 <img class="relative w-full" src="{{ asset('images/home/report1.svg') }}" alt="Image 1">
                 <div class="absolute px-4 py-6 bottom-3 left-0">

@@ -5,7 +5,7 @@
                 <img src="{{ asset('images/home/line_8.svg') }}" alt="erer">
             </div>
             <div class=" ">
-                <div class="slick-carousel2 px-3 py-20 mb-20">
+                <div class="slick-carousel2 overflow-x-hiddden px-3 py-20 mb-20">
                 
                     <div class="flex flex-col gap-3 text-center items-center">
                         <img src="{{ asset('images/home/whoweare1.svg') }}" alt="Image 2">

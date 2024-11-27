@@ -8,7 +8,7 @@
         
 
     </div>
-    <div class="slick-carousel py-20 mb-20  text-black">
+    <div class="slick-carousel overflow-x-hidden py-20 mb-20  ">
                     <div class=" text-center p-2">
                         <img class="w-full h-full" src="{{ asset('images/home/news.svg') }}" alt="Image 3">
                         <div class="p-3">

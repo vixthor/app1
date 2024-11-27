@@ -12,9 +12,9 @@
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
             </svg>
         </div>
-        <div x-show="open" @click.away="open = false" y-transition class="mt-2 w-full p-4 bg-white ">
+        <div x-show="open" @click.away="open = false" y-transition class="mt-2 w-full p-4 ">
         
-        <p class="text-gray-600 mt-2">{{ $description }}</p>
+        <p class="text-gray-600 dark:text-white mt-2">{{ $description }}</p>
     </div>
     </button>
 

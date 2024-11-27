@@ -60,7 +60,7 @@ $(document).ready(function () {
         centerPadding: '250px',        // Show 60px of the side slides
         autoplay: true,
         autoplaySpeed: 4000,
-        arrows: false,
+        arrows: true,
         responsive: [
             {
                 breakpoint: 768,      // Adjust settings for mobile screens

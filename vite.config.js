@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 import { resolve } from 'path';
+// import sass from 'sass';
 export default defineConfig({
     plugins: [
         laravel({
@@ -10,6 +11,7 @@ export default defineConfig({
             ],
             refresh: true,
         }),
+        // sass(),
     ],
     resolve: {
         alias: {
