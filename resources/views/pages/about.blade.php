@@ -2,7 +2,7 @@
         <div data-aos="fade-up" class="flex flex-col  md:flex-row container mx-auto py-20 px-5">
             <div class="w-full md:w-1/2">
                 <x-h2>How It Started</x-h2>
-                <x-h1>Lorem ipsum dolor sit amet.</x-h1>
+                <x-h1>The Journey So Far.</x-h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi distinctio dolor, ea voluptatibus aliquid soluta alias recusandae dolorum. Facere dolore aut soluta magnam fugit blanditiis doloremque quas praesentium ullam maiores?</p>
             </div>
              <div class="w-full md:w-1/2">
@@ -12,7 +12,18 @@
                          <h3><span class="countup" data-end-value="3.5">0</span></h3>
                         <p class="text-lg">Years Experience</p>
                     </div>
-                    
+                    <div class=" font-semibold text-5xl  flex  flex-col gap-y-3 p-10 ">
+                         <h3><span class="countup" data-end-value="3.5">0</span></h3>
+                        <p class="text-lg">Years Experience</p>
+                    </div>
+                    <div class=" font-semibold text-5xl  flex  flex-col gap-y-3 p-10 ">
+                         <h3><span class="countup" data-end-value="3.5">0</span></h3>
+                        <p class="text-lg">Years Experience</p>
+                    </div>
+                    <div class=" font-semibold text-5xl  flex  flex-col gap-y-3 p-10 ">
+                         <h3><span class="countup" data-end-value="3.5">0</span></h3>
+                        <p class="text-lg">Years Experience</p>
+                    </div>
                     
                 </div>
             </div>

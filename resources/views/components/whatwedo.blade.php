@@ -6,7 +6,7 @@
          
         
     </div>
-     <div class="text-black py-10 md:px-20 gap-y-8 flex justify-center w-full mx-auto mb-32">
+     <div class="text-black py-10 md:px-20 gap-y-8 flex justify-center w-full mx-auto mb-32 dark:text-white">
                     <div class="font-semibold text-5xl  text-center flex  flex-col gap-y-3  md:p-10 md:border-x-2">
                          <h3><span class="countup" data-end-value="10">0</span> Years </h3>
                         <p class="text-2xl">Over <span class="countup" data-end-value="10">0</span> years in the <br> field </p>

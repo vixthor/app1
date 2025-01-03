@@ -2,7 +2,7 @@
     <div class="flex flex-col w-full gap-y-10 p-5">
             <div class=" flex flex-col mx-auto items-center max-w-7xl   gap-y-5">
                 <x-h3 class="font-bold text-6xl">Technology and Innovation</x-h3>
-                <img src="{{ asset('images/home/line_8.svg') }}" alt="erer">
+                <img class="w-20" src="{{ asset('images/home/line_8.svg') }}" alt="erer">
                  <x-p class="fony-thin text-center">Our company leverages advanced technologies, research, and innovative approaches to enhance operations, increase efficiency, and promote sustainability.</x-p>
             </div>
             <div>
@@ -32,7 +32,7 @@
                                 Enhanced Oil Recovery (EOR): Techniques that increase the amount of crude oil extracted from existing fields.
                             </li>
                         </ul>
-                        <a class="pl-8 underline text-button-blue gap-x-2 flex items-self-start" href="">Get Started <img src="{{ asset('images/home/direct_right.svg') }}" alt=""></a>
+                        <a class="pl-8 underline text-button-blue gap-x-2 flex items-self-start" href="{{ url('/about') }}">Get Started <img src="{{ asset('images/home/direct_right.svg') }}" alt=""></a>
                     </div>
                 </div>
                 </div>

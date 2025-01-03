@@ -1,6 +1,6 @@
 <div x-data="{ open: false }" class="w-full md:px-10 px-2">
     <!-- Button with Arrow -->
-    <button @click="open = !open" class="flex flex-col w-full items-center border-yellow-500 border-b-4  md:px-4 md:py-9 px-2 py-7">
+    <button @click="open = !open" class="flex flex-col w-full items-center border-yellow-500 border-b-2  md:px-4 md:py-9 px-2 py-7">
         <div class="flex justify-between items-center w-full">
             <div class="flex items-center ">
                 <img class="pr-10" src="{{ asset('images/home/green_check.svg') }}" alt="">

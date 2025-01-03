@@ -6,6 +6,8 @@ environments:
         cli-memory: 512
         runtime: 'php-8.3:al2'
         build:
-            - 'composer install --no-dev'
-            - 'php artisan event:cache'
+            - npm ci
+            - npm run build
+            - php artisan config:cache
+            - php artisan route:cache
           # - 'npm ci && npm run build && rm -rf node_modules'

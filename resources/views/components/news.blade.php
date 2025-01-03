@@ -17,31 +17,32 @@
                         </div>
                     </div>
                     <div class=" text-center p-2">
-                        <img class="w-full h-full" src="{{ asset('images/home/news.svg') }}" alt="Image 3">
+                        <img class="w-full h-full" src="{{ asset('images/home/news2.svg') }}" alt="Image 3">
                         <div class="p-3">
                             <h2 class="text-base text-start font-semibold">Latest News</h2>
                             <p class="text-start">Explore breaking news stories and updates about Madu Alliance. From new projects and partnerships to achievements and sustainability initiatives, this section offers a glimpse into our ongoing efforts to drive growth and innovation in the energy industry.</p>
                         </div>
                     </div>
                     <div class=" text-center p-2">
-                        <img class="w-full h-full" src="{{ asset('images/home/news.svg') }}" alt="Image 3">
+                        <img class="w-full h-full" src="{{ asset('images/home/news3.svg') }}" alt="Image 3">
                         <div class="p-3">
                             <h2 class="text-base text-start font-semibold">Latest News</h2>
                             <p class="text-start">Explore breaking news stories and updates about Madu Alliance. From new projects and partnerships to achievements and sustainability initiatives, this section offers a glimpse into our ongoing efforts to drive growth and innovation in the energy industry.</p>
                         </div>
                     </div><div class=" text-center p-2">
-                        <img class="w-full h-full" src="{{ asset('images/home/news.svg') }}" alt="Image 3">
-                        <div class="p-3">
-                            <h2 class="text-base text-start font-semibold">Latest News</h2>
-                            <p class="text-start">Explore breaking news stories and updates about Madu Alliance. From new projects and partnerships to achievements and sustainability initiatives, this section offers a glimpse into our ongoing efforts to drive growth and innovation in the energy industry.</p>
-                        </div>
-                    </div><div class=" text-center p-2">
-                        <img class="w-full h-full" src="{{ asset('images/home/news.svg') }}" alt="Image 3">
+                        <img class="w-full h-full" src="{{ asset('images/home/news4.svg') }}" alt="Image 3">
                         <div class="p-3">
                             <h2 class="text-base text-start font-semibold">Latest News</h2>
                             <p class="text-start">Explore breaking news stories and updates about Madu Alliance. From new projects and partnerships to achievements and sustainability initiatives, this section offers a glimpse into our ongoing efforts to drive growth and innovation in the energy industry.</p>
                         </div>
                     </div>
+                    {{-- <div class=" text-center p-2">
+                        <img class="w-full h-full" src="{{ asset('images/home/news.svg') }}" alt="Image 3">
+                        <div class="p-3">
+                            <h2 class="text-base text-start font-semibold">Latest News</h2>
+                            <p class="text-start">Explore breaking news stories and updates about Madu Alliance. From new projects and partnerships to achievements and sustainability initiatives, this section offers a glimpse into our ongoing efforts to drive growth and innovation in the energy industry.</p>
+                        </div>
+                    </div> --}}
                       
     </div>
     <!-- Breathing in, I calm body and mind. Breathing out, I smile. - Thich Nhat Hanh -->

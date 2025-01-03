@@ -1,4 +1,4 @@
-<div class="w-full mt-20 dark:text-white dark:bg-gray-900">
+<div class="w-full overflow-x-hidden mt-20 dark:text-white dark:bg-gray-900">
     <div class="w-full">
             <div class=" flex flex-col mx-auto items-center w-full gap-y-5 my-20">
                 <x-h3 class="font-bold text-6xl">Our Leaders</x-h3>

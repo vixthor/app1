@@ -27,18 +27,24 @@
         </div>
        </div>
         <!-- Newsletter Subscription Section -->
-        <div class="flex flex-col items-center md:items-end space-y-4 w-full md:w-auto">
+        <form action="{{ route('subscribers.store') }} " method="POST">
+            @csrf
+            <div class="flex flex-col items-center md:items-end space-y-4 w-full md:w-auto">
             <x-h2> Subscribe To Our Newsletter</x-h2>
-            <input 
+            @error('email')
+                    <span class="text-sm text-red-600">{{ $message }}</span>
+                @enderror
+            <input  name="email"
                 type="email" 
                 placeholder="Enter your email address" 
-                class="bg-gray-100 text-gray-800 py-2 px-4 rounded w-full md:w-64 focus:outline-none focus:ring-2 focus:ring-yellow-500"
+                class="bg-gray-100 text-gray-800 py-2 px-4 rounded w-full md:w-64 focus:outline-none focus:ring-2 focus:ring-yellow-500" required
             >
-            <button 
+            <button type="submit"
                 class="bg-gray-800 text-white py-2 px-4 rounded w-full md:w-64 hover:bg-gray-700 transition duration-300">
                 Subscribe
             </button>
         </div>
+        </form>
     </div>
     
     <!-- Copyright Section -->

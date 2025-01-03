@@ -8,43 +8,12 @@ import './countup';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
+
+
+
+// import './themetoggle';
 AOS.init(); // Initialize AOS
-
-
-
-// import Swiper from 'swiper';
-// import 'swiper/swiper-bundle.min.css';
-
-// document.addEventListener('DOMContentLoaded', function () {
-//     // Initialize Swiper
-//     const swiper = new Swiper('.swiper-container', {
-//         slidesPerView: 1,
-//         spaceBetween: 30,
-//         loop: true,
-//         autoplay: {
-//             delay: 2500,
-//             disableOnInteraction: false,
-//         },
-//         navigation: {
-//             nextEl: '.swiper-button-next',
-//             prevEl: '.swiper-button-prev',
-//         },
-//         pagination: {
-//             el: '.swiper-pagination',
-//             clickable: true,
-//         },
-//     });
-// });
-
-
-
-
-
-
-
-
-window.Alpine = Alpine;
-
 Alpine.start();
 
 

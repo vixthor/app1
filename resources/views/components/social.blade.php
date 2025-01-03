@@ -1,7 +1,7 @@
 <div class="flex flex-col gap-y-10 p-5 mt-20">
             <div class=" flex flex-col mx-auto items-center   gap-y-5">
                 <x-h3 class="font-bold text-6xl">Social Responsibility</x-h3>
-                <img src="{{ asset('images/home/line_8.svg') }}" alt="erer">
+                <img class="w-20" src="{{ asset('images/home/line_8.svg') }}" alt="erer">
                  <x-p class="fony-thin text-center">At Madu Alliance, we believe in being a responsible corporate citizen. Our social responsibility initiatives focus on supporting the communities where we operate, fostering education, promoting diversity and inclusion, and ensuring the highest standards of safety and ethics in our operations.</x-p>
             </div>
             <div>
@@ -28,20 +28,18 @@
                             </li>
                              <li class="py-5 gap-x-3 flex items-center"> 
                                    <img  class=" " src="{{ asset('images/home/list_icon.svg') }}" alt="">    
-                               Disaster relief and emergency response programs.
+                               Educational Advancement Initiatives.
                             </li>
                              <li class="py-5 gap-x-3 flex items-center"> 
                                    <img  class=" " src="{{ asset('images/home/list_icon.svg') }}" alt="">    
-                               Disaster relief and emergency response programs.
+                              Health and Wellness Programs.
                             </li>
                              <li class="py-5 gap-x-3 flex items-center"> 
                                    <img  class=" " src="{{ asset('images/home/list_icon.svg') }}" alt="">    
-                               Disaster relief and emergency response programs.
+                               Environmental Awareness Campaigns.
                             </li>
-                             <li class="py-5 gap-x-3 flex items-center"> 
-                                   <img  class=" " src="{{ asset('images/home/list_icon.svg') }}" alt="">    
-                               Disaster relief and emergency response programs.
-                            </li>
+                             
+                            
                         </ul>
                         <a class="underline text-button-blue gap-x-2 flex items-self-start" href="">Get Started <img src="{{ asset('images/home/direct_right.svg') }}" alt=""></a>
                     </div>

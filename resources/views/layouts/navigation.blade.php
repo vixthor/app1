@@ -6,6 +6,7 @@
 
             <!-- Toggle Button for Mobile (Hamburger Icon) -->
                 <div class="md:hidden">
+
                     <button 
                     @click="open = true" 
                     class="text-gray-500 dark:text-white focus:outline-none"
@@ -79,6 +80,10 @@
                             <x-primary-button>Financial Reviews</x-primary-button>
                         </a>
                     </li>
+                    <button id="theme-toggle" class="p-2 bg-gray-200 dark:bg-gray-800 rounded">
+    Toggle Theme
+</button>
+
                 </ul>
             </div>
         </div>
