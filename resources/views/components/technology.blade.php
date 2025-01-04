@@ -1,12 +1,12 @@
-<div class=" w-full">
-    <div class="flex flex-col w-full gap-y-10 p-5">
+<div class=" w-full" data-aos="fade-up">
+    <div class="flex flex-col w-full gap-y-5 p-5">
             <div class=" flex flex-col mx-auto items-center max-w-7xl   gap-y-5">
                 <x-h3 class="font-bold text-6xl">Technology and Innovation</x-h3>
                 <img class="w-20" src="{{ asset('images/home/line_8.svg') }}" alt="erer">
                  <x-p class="fony-thin text-center">Our company leverages advanced technologies, research, and innovative approaches to enhance operations, increase efficiency, and promote sustainability.</x-p>
             </div>
             <div>
-                <div class="max-w-screen-2xl flex mx-auto justify-around items-center py-4 md:py-14 gap-x-5">
+                <div class="max-w-screen-2xl flex mx-auto justify-around items-center py-4 md:py-9 gap-x-5">
                     <x-button>Advanced drilling technology</x-button>
                     <x-button>Digital Transformation in Oil and Gas</x-button>
                     <x-button>Smart Refining and Processing</x-button>

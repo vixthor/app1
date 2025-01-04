@@ -1,4 +1,4 @@
-<div class="w-full">
+<div class="w-full" data-aos="fade-up">
      <div class=" flex flex-col mt-20 w-full mx-auto items-center max-w-7xl gap-y-5">
                     <x-h3 class="font-bold  text-6xl">Environmental Initiatives</x-h3>
                     <img class="w-20" src="{{ asset('images/home/line_8.svg') }}" alt="erer">
@@ -16,7 +16,7 @@
                                  <x-dropdown-card title="Renewable Energy Investment" description="As part of our transition to a sustainable energy mix, we invest in renewable energy sources like solar, wind, and geothermal, while funding research and innovation to drive the green energy revolution." />
                                  <x-dropdown-card title="Water Management" description="Madu Alliance is committed to responsible water use, recycling water in operations, preventing contamination, and exploring innovative methods to reduce water consumption across all processes." />
                             </li>
-                            
+                            34.203.11.237
                         </ul>
                         
                     </div>
