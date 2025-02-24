@@ -1,8 +1,7 @@
 <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="22.4" height="23.8" transform="translate(4 0.599976)" fill="white"/>
 <g filter="url(#filter0_d_13_227)">
-<circle cx="15.2" cy="12.4999" r="10.5" fill="#FFFAE6" stroke="#FFCC00" stroke-width="1.4"/>
-<circle cx="15.2031" cy="12.5001" r="6.3" fill="#FFFAE6" stroke="#FFCC00" stroke-width="1.4"/>
+<circle cx="15.2" cy="12.4999" r="10.5" stroke="#FFCC00" stroke-width="1.4"/>
+<circle cx="15.2031" cy="12.5001" r="6.3" stroke="#FFCC00" stroke-width="1.4"/>
 </g>
 <defs>
 <filter id="filter0_d_13_227" x="0" y="1.29993" width="30.4" height="30.4" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
@@ -12,7 +11,7 @@
 <feGaussianBlur stdDeviation="2"/>
 <feComposite in2="hardAlpha" operator="out"/>
 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2= "BackgroundImageFix" result="effect1_dropShadow_13_227"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_13_227"/>
 <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_13_227" result="shape"/>
 </filter>
 </defs>

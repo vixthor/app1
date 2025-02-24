@@ -16,7 +16,7 @@
                                  <x-dropdown-card title="Renewable Energy Investment" description="As part of our transition to a sustainable energy mix, we invest in renewable energy sources like solar, wind, and geothermal, while funding research and innovation to drive the green energy revolution." />
                                  <x-dropdown-card title="Water Management" description="Madu Alliance is committed to responsible water use, recycling water in operations, preventing contamination, and exploring innovative methods to reduce water consumption across all processes." />
                             </li>
-                            34.203.11.237
+                            
                         </ul>
                         
                     </div>

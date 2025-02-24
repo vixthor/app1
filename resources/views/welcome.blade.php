@@ -21,7 +21,7 @@
     <!-- good --> <x-whoweare></x-whoweare>
     <!-- good --> <x-technology></x-technology>
     <!-- good --> <x-environment></x-environment>
-    <!-- good --> <x-social></x-social>
+    {{-- <!-- good --> <x-social></x-social> --}}
     <!-- good --> <x-leaders></x-leaders>
     <!-- good --> <x-relations></x-relations>
     <x-news></x-news>
