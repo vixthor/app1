@@ -2,7 +2,7 @@
     <div class="w-full">
             <div class=" flex flex-col mx-auto items-center w-full gap-y-5 my-20">
                 <x-h3 class="font-bold text-6xl">Our Leaders</x-h3>
-                <img class="w-22  " src="{{ asset('images/home/line_8.svg') }}" alt="erer">
+                <img class="w-22  " src="{{ asset('images/home/line.svg') }}" alt="erer">
                 <x-p class="fony-thin text-center">At Madu Alliance, our leadership team is composed of visionary individuals who bring decades of expertise, experience, and commitment to the energy industry. Together, they steer the company towards excellence in operational efficiency, sustainability, and innovation. Each leader is dedicated to delivering sustainable energy solutions while upholding the highest standards of corporate governance and responsibility.</x-p>
                 <div class=" flex flex-col md:flex-row items-center">
                 
@@ -30,7 +30,7 @@
     </div>  
     <div class="container mx-auto px-4 py-8  items-center">
     <x-h3 class="font-bold text-6xl py-2">Our Gallery</x-h3>
-                <img class="w-22  mx-auto my-4" src="{{ asset('images/home/line_8.svg') }}" alt="erer">
+                <img class="w-22  mx-auto my-4" src="{{ asset('images/home/line.svg') }}" alt="erer">
     <!-- Gallery Grid (Show only 3 images) -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         @php

@@ -1,7 +1,7 @@
 <div data-aos="fade-up" class="flex flex-col gap-y-10 p-5 mt-20">
             <div class=" flex flex-col mx-auto items-center   gap-y-5">
                 <x-h3 class="font-bold text-6xl">Social Responsibility</x-h3>
-                <img class="w-20" src="{{ asset('images/home/line_8.svg') }}" alt="erer">
+                <img class="w-20" src="{{ asset('images/home/line.svg') }}" alt="erer">
                  <x-p class="fony-thin text-center">At Madu Alliance, we believe in being a responsible corporate citizen. Our social responsibility initiatives focus on supporting the communities where we operate, fostering education, promoting diversity and inclusion, and ensuring the highest standards of safety and ethics in our operations.</x-p>
             </div>
             <div>

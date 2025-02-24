@@ -1,7 +1,7 @@
 <div class="w-full" data-aos="fade-up">
      <div class=" flex flex-col mt-20 w-full mx-auto items-center max-w-7xl gap-y-5">
                     <x-h3 class="font-bold  text-6xl">Environmental Initiatives</x-h3>
-                    <img class="w-20" src="{{ asset('images/home/line_8.svg') }}" alt="erer">
+                    <img class="w-20" src="{{ asset('images/home/line.svg') }}" alt="erer">
         </div>
           <div class="flex p-4 flex-col lg:flex-row lg:p-5">
                     <div class="lg:w-1/3 w-full">

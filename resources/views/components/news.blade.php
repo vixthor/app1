@@ -2,7 +2,7 @@
     <div>    <!-- I have not failed. I've just found 10,000 ways that won't work. - Thomas Edison -->
     <div class=" flex flex-col mx-auto items-center max-w-7xl gap-y-5">
                 <x-h3 class="font-bold text-6xl">News and Media</x-h3>
-                <img src="{{ asset('images/home/line_8.svg') }}" alt="erer">
+                <img src="{{ asset('images/home/line.svg') }}" alt="erer">
                  <x-p class="fony-thin text-center p-4">Welcome to the News & Media section of Madu Aliiance. Stay updated with the latest news, press releases, and media coverage about our company, projects, and initiatives. This section provides real-time insights into our operational achievements, community engagements, technological advancements, and industry contributions. We are committed to keeping our stakeholders informed about our progress and milestones as we continue to shape the energy landscape.</x-p>
 
         

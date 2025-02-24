@@ -1,7 +1,7 @@
 <div>
     <div data-aos="fade-up" class=" w-full flex flex-col mx-auto items-center max-w-7xl gap-y-5">
             <x-h3 class="font-bold text-6xl">What We Offer</x-h3>
-            <img class="w-20" src="{{ asset('images/home/line_8.svg') }}" alt="">
+            <img class="w-20" src="{{ asset('images/home/line.svg') }}" alt="">
           
         </div>
         <div class=" mx-auto mb-48">
