@@ -1,4 +1,4 @@
-<div class="flex flex-col gap-y-10 p-5 mt-20">
+<div data-aos="fade-up" class="flex flex-col gap-y-10 p-5 mt-20">
             <div class=" flex flex-col mx-auto items-center   gap-y-5">
                 <x-h3 class="font-bold text-6xl">Social Responsibility</x-h3>
                 <img class="w-20" src="{{ asset('images/home/line_8.svg') }}" alt="erer">

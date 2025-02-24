@@ -4,7 +4,7 @@
             'name' => 'John Doe',
             'designation' => 'CEO, TechCorp',
             'avatar' => 'https://via.placeholder.com/150',
-            'testimonial' => 'This company exceeded my expectations. Highly recommended!',
+            'testimonial' => ' This company exceeded my expectations. Highly recommended!',
         ],
         [
             'name' => 'Jane Smith',

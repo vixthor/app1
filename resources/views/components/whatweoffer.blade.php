@@ -7,27 +7,29 @@
         <div class=" mx-auto mb-48">
             <x-offers>
                 <x-slot:title>
-                    Monthly Meetups
+                    Wellhead Services
                 </x-slot>
-                Our cornerstone event, held on the last Friday of every month, featuring keynote speakers, <br> panel discussions, and ample networking opportunities.
+               We provide cutting-edge wellhead solutions, ensuring the safe and reliable control of your oil and gas wells from installation to decommissioning. Our expertise guarantees seamless operations in even the most challenging environments.
             </x-offers>
              <x-offers>
                 <x-slot:title>
-                    Diverse Network
+                   Subsurface Engineering
                 </x-slot>
-                Connect with a wide range of professionals, from early-stage founders to seasoned <br>entrepreneurs, investors, and industry experts.
+                Harness the power of innovative subsurface engineering with our team of skilled experts. From reservoir analysis to drilling optimization, we help you unlock maximum value from your resources.
             </x-offers>
              <x-offers>
                 <x-slot:title>
-                    Knowledge Sharing
+                    Asset Integrity
                 </x-slot>
-                Connect with a wide range of professionals, from early-stage founders to seasoned <br>entrepreneurs, investors, and industry experts.
+                Protecting your assets is our priority. We deliver comprehensive asset integrity solutions, including inspection, monitoring, and maintenance, to ensure safety, compliance, and efficiency across your operations.
             </x-offers>
              <x-offers>
                 <x-slot:title>
-                    Collaboration <br>  Opportunities
+                    Reed Maintenance
                 </x-slot>
-                Find potential co-founders, mentors, or partners for your next big venture.
+               Our reed maintenance services are designed to maximize the longevity and performance of essential equipment. We combine precision techniques and advanced tools to minimize downtime and ensure operational continuity.
+
+3. Subsurface Engineering
             </x-offers>
              <x-offers>
                 <x-slot:title>

@@ -113,7 +113,7 @@ $(document).ready(function () {
         infinite: true,
         speed: 300,
         slidesToShow: 2,             // Display 2 images at a time
-        slidesToScroll: 1,
+        // slidesToScroll: 1,
         centerMode: true,            // Center the active slide
         centerPadding: '150px',      // Initial padding for large screens
         autoplay: true,
@@ -145,6 +145,7 @@ $(document).ready(function () {
             {
                 breakpoint: 768,     // For mobile devices
                 settings: {
+                    fade: true,
                     slidesToShow: 2,
                     centerMode: false, // Disable centering
                     arrows: false,     // Hide arrows for simplicity

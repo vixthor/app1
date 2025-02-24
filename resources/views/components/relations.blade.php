@@ -1,4 +1,4 @@
-<div class="w-full mt-20 dark:text-white dark:bg-gray-900">    <!-- I have not failed. I've just found 10,000 ways that won't work. - Thomas Edison -->
+<div data-aos="fade-up" class="w-full mt-20 dark:text-white dark:bg-gray-900">    <!-- I have not failed. I've just found 10,000 ways that won't work. - Thomas Edison -->
     <div class=" flex flex-col mx-auto items-center max-w-7xl gap-y-5">
                 <x-h3 class="font-bold text-6xl">Investor Relations</x-h3>
                 <img src="{{ asset('images/home/line_8.svg') }}" alt="erer">

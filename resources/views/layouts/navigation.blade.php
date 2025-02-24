@@ -33,8 +33,8 @@
                             <x-nav-link href="{{ url('/reviews') }}">Reviews</x-nav-link>
                         </li>
                         <li>
-                            <a href="">
-                                <x-primary-button>Financial Reviews</x-primary-button>
+                            <a href="{{ url('/services') }}">
+                                <x-primary-button>Our Services</x-primary-button>
                             </a>
                         </li>
                     </ul>
@@ -76,13 +76,13 @@
                         <x-nav-link href="{{ url('/reviews') }}">Client Reviews</x-nav-link>
                     </li>
                     <li>
-                        <a href="">
-                            <x-primary-button>Financial Reviews</x-primary-button>
+                        <a href="{{ url('/services') }}">
+                            <x-primary-button>Our Services</x-primary-button>
                         </a>
                     </li>
-                    <button id="theme-toggle" class="p-2 bg-gray-200 dark:bg-gray-800 rounded">
-    Toggle Theme
-</button>
+                    {{-- <button id="theme-toggle" class="p-2 bg-gray-200 dark:bg-gray-800 rounded"> --}}
+    {{-- Toggle Theme --}}
+{{-- </button> --}}
 
                 </ul>
             </div>

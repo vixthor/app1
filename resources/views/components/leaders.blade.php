@@ -1,4 +1,4 @@
-<div class="w-full overflow-x-hidden mt-20 dark:text-white dark:bg-gray-900">
+<div data-aos="fade-up" class="w-full overflow-x-hidden mt-20 dark:text-white dark:bg-gray-900">
     <div class="w-full">
             <div class=" flex flex-col mx-auto items-center w-full gap-y-5 my-20">
                 <x-h3 class="font-bold text-6xl">Our Leaders</x-h3>
@@ -28,5 +28,35 @@
             
              
     </div>  
+    <div class="container mx-auto px-4 py-8  items-center">
+    <x-h3 class="font-bold text-6xl py-2">Our Gallery</x-h3>
+                <img class="w-22  mx-auto my-4" src="{{ asset('images/home/line_8.svg') }}" alt="erer">
+    <!-- Gallery Grid (Show only 3 images) -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        @php
+            $images = [
+                ['url' => 'images/oil-rig.jpg', 'caption' => 'Offshore Oil Rig'],
+                ['url' => 'images/refinery.jpg', 'caption' => 'Oil Refinery'],
+                ['url' => 'images/pipeline.jpg', 'caption' => 'Pipeline Transport'],
+            ];
+        @endphp
+
+        @foreach ($images as $image)
+            <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="{{ asset($image['url']) }}" alt="{{ $image['caption'] }}" class="w-full h-56 object-cover">
+                <div class="p-4">
+                    <p class="text-lg font-semibold text-gray-800">{{ $image['caption'] }}</p>
+                </div>
+            </div>
+        @endforeach
+    </div>
+
+    <!-- See More Button -->
+    <div class="text-center mt-8">
+        <a href="{{ route('gallery') }}" class="bg-yellow-600 text-white px-6 py-3 rounded-lg shadow-md text-lg font-semibold hover:bg-yellow-700 transition duration-300">
+            See More
+        </a>
+    </div>
+</div>
     <!-- Happiness is not something readymade. It comes from your own actions. - Dalai Lama -->
 </div>

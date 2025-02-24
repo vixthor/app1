@@ -1,4 +1,4 @@
-<div class="w-full mt-20">
+<div data-aos="fade-up" class="w-full mt-20">
     <div>    <!-- I have not failed. I've just found 10,000 ways that won't work. - Thomas Edison -->
     <div class=" flex flex-col mx-auto items-center max-w-7xl gap-y-5">
                 <x-h3 class="font-bold text-6xl">News and Media</x-h3>
@@ -8,7 +8,7 @@
         
 
     </div>
-    <div class="slick-carousel overflow-x-hidden py-20 mb-20  ">
+    <div class="slick-carousel overflow-x-hidden py-8 mb-20  ">
                     <div class=" text-center p-2">
                         <img class="w-full h-full" src="{{ asset('images/home/news.svg') }}" alt="Image 3">
                         <div class="p-3">
