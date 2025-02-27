@@ -35,9 +35,9 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         @php
             $images = [
-                ['url' => 'images/oil-rig.jpg', 'caption' => 'Offshore Oil Rig'],
-                ['url' => 'images/refinery.jpg', 'caption' => 'Oil Refinery'],
-                ['url' => 'images/pipeline.jpg', 'caption' => 'Pipeline Transport'],
+                ['url' => 'images/gallery/image5.jpg', 'caption' => 'Drilling Operations'],
+                ['url' => 'images/gallery/image7.jpg', 'caption' => 'Oil Storage Facility'],
+                ['url' => 'images/gallery/IMG-20240426-WA0041.jpg', 'caption' => 'Oil Storage Facility'],
             ];
         @endphp
 
