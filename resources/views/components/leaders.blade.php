@@ -44,9 +44,9 @@
         @foreach ($images as $image)
             <div class="bg-white rounded-lg shadow-md overflow-hidden">
                 <img src="{{ asset($image['url']) }}" alt="{{ $image['caption'] }}" class="w-full h-56 object-cover">
-                <div class="p-4">
+                {{-- <div class="p-4">
                     <p class="text-lg font-semibold text-gray-800">{{ $image['caption'] }}</p>
-                </div>
+                </div> --}}
             </div>
         @endforeach
     </div>
