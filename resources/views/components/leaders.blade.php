@@ -3,7 +3,7 @@
             <div class=" flex flex-col mx-auto items-center w-full gap-y-5 my-20">
                 <x-h3 class="font-bold text-6xl">Our Leaders</x-h3>
                 <img class="w-22  " src="{{ asset('images/home/line.svg') }}" alt="erer">
-                <x-p class="fony-thin text-center">At Madu Alliance, our leadership team is composed of visionary individuals who bring decades of expertise, experience, and commitment to the energy industry. Together, they steer the company towards excellence in operational efficiency, sustainability, and innovation. Each leader is dedicated to delivering sustainable energy solutions while upholding the highest standards of corporate governance and responsibility.</x-p>
+                <x-p class="fony-thin text-center p-7">At Madu Alliance, our leadership team is composed of visionary individuals who bring decades of expertise, experience, and commitment to the energy industry. Together, they steer the company towards excellence in operational efficiency, sustainability, and innovation. Each leader is dedicated to delivering sustainable energy solutions while upholding the highest standards of corporate governance and responsibility.</x-p>
                 <div class=" flex flex-col md:flex-row items-center">
                 
                     
@@ -36,14 +36,14 @@
         @php
             $images = [
                 ['url' => 'images/gallery/image5.jpg', 'caption' => 'Drilling Operations'],
-                ['url' => 'images/gallery/image7.jpg', 'caption' => 'Oil Storage Facility'],
+                ['url' => 'images/gallery/image3.jpg', 'caption' => 'Oil Storage Facility'],
                 ['url' => 'images/gallery/IMG-20240426-WA0041.jpg', 'caption' => 'Oil Storage Facility'],
             ];
         @endphp
 
         @foreach ($images as $image)
             <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                <img src="{{ asset($image['url']) }}" alt="{{ $image['caption'] }}" class="w-full h-56 object-cover">
+                <img src="{{ asset($image['url']) }}" alt="{{ $image['caption'] }}" class="w-full object-cover">
                 {{-- <div class="p-4">
                     <p class="text-lg font-semibold text-gray-800">{{ $image['caption'] }}</p>
                 </div> --}}

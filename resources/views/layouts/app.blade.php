@@ -22,7 +22,7 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
-    <body class=" md:px-0 font-sans antialiased w-full transition-colors duration-300 bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+    <body class=" md:px-0  font-sans antialiased w-full transition-colors duration-300 bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
         <div class="min-h-screen  bg-gray-100 dark:text-white dark:bg-gray-900">
             @include('layouts.navigation')
 

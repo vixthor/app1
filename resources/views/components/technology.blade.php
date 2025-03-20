@@ -7,12 +7,12 @@
             </div>
             <div>
                 <div class="max-w-screen-2xl flex mx-auto justify-around items-center py-4 md:py-9 gap-x-5">
-                    <x-button>Advanced drilling technology</x-button>
+                    <x-button>Advanced drilling technology</x-button>   
                     <x-button>Digital Transformation in Oil and Gas</x-button>
                     <x-button>Smart Refining and Processing</x-button>
                     <x-button>Renewable Energy and Low-Carbon Technologies</x-button>
                 </div>
-                <div class="flex flex-col lg:flex-row max-w-7xl mx-auto">
+                <div class="flex flex-col lg:flex-row  max-w-7xl mx-auto">
                     <div class="lg:w-1/3 w-full">
                         <img  class="w-full h-full " src="{{ asset('images/home/tech1.svg') }}" alt="">
                     </div>

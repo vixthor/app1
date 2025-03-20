@@ -1,6 +1,6 @@
 <!-- resources/views/components/footer.blade.php -->
 <!-- resources/views/components/footer.blade.php -->
-<div class=" text-gray-200 dark:text-white w-full py-8">
+<div class=" text-gray-500 dark:text-white w-full py-8">
     <!-- Main Content Container -->
     <div class="container overflow-x-hidden mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 px-4">
         
@@ -30,7 +30,7 @@
         <form action="{{ route('subscribers.store') }} " method="POST">
             @csrf
             <div class="flex flex-col items-center md:items-end space-y-4 w-full md:w-auto">
-            <x-h2> Subscribe To Our Newsletter</x-h2>
+            <x-h2 class=""> Subscribe To Our Newsletter</x-h2>
             @error('email')
                     <span class="text-sm text-red-600">{{ $message }}</span>
                 @enderror

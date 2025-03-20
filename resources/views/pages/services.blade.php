@@ -1,7 +1,7 @@
 <x-app-layout>
   <div class="container mx-auto py-12 px-2">
     <h1 class="text-4xl font-bold text-center mb-8">Our Services</h1>
-    <div class="grid grid-cols-1  md:grid-cols-2 bg-red-50 lg:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1  md:grid-cols-2  lg:grid-cols-3 gap-6">
     <x-service-card class=""
             title="Wellhead Services"
             description="Proper wellhead management is critical for the safe and efficient extraction of oil and gas. At Madu Alliance, we provide end-to-end wellhead solutions..."
