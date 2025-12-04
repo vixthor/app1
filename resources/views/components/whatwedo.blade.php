@@ -1,7 +1,7 @@
 <div data-aos="fade-up"    class="w-full mt-20">
-    <div class="flex flex-col w-full mx-auto items-center max-w-7xl pb-10 gap-y-5">
+    <div class="flex flex-col w-full mx-auto items-center max-w-7xl pb-10 gap-y-4">
         <x-h3 class="">What We Do</x-h3>
-        <img class="w-20  md:-w-20" src="{{ asset('images/home/line.svg') }}" alt="">
+       <img class="w-20 md:w-[238px]" src="{{ asset('images/home/line.svg') }}" alt="">
         <x-p class="fony-thin text-center">At Madu Alliance, we are at the forefront of Nigeria's energy industry, delivering world-class solutions across the entire oil and gas value chain. Our commitment to innovation, sustainability, and operational excellence drives our business, ensuring that we meet the energy needs of today while paving the way for a more sustainable tomorrow.</x-p>
          
         

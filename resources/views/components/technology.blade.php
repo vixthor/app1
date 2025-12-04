@@ -2,7 +2,7 @@
     <div class="flex flex-col w-full gap-y-5 p-5">
             <div class=" flex flex-col mx-auto items-center max-w-7xl   gap-y-5">
                 <x-h3 class="font-bold text-6xl">Technology and Innovation</x-h3>
-                <img class="w-20" src="{{ asset('images/home/line.svg') }}" alt="erer">
+                <img class="w-20 md:w-[238px]" src="{{ asset('images/home/line.svg') }}" alt="erer">
                  <x-p class="fony-thin text-center">Our company leverages advanced technologies, research, and innovative approaches to enhance operations, increase efficiency, and promote sustainability.</x-p>
             </div>
             <div>

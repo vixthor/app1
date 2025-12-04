@@ -7,6 +7,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WhoWeAreController;
 use App\Http\Controllers\SubscriberController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\NewsController;
 use Illuminate\Support\Str;
 
 
@@ -80,4 +81,9 @@ Route::get('/services/{slug}', function ($slug) {
 Route::get('/gallery', function () {
     return view('pages.gallery');
 })->name('gallery');
+
+
+// Newsdata.io integration endpoints
+Route::get('/news/headlines', [NewsController::class, 'headlines'])->name('news.headlines');
+Route::get('/news/search', [NewsController::class, 'search'])->name('news.search');
 

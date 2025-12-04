@@ -4,15 +4,17 @@ namespace App\Http\Controllers;
 
 use App\Models\Subscriber;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 
 class SubscriberController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Display a listing of the subscribers (for admin use).
      */
     public function index()
     {
-        //
+        // Optional: return a paginated list for admin views
+        // return view('admin.subscribers.index', ['subscribers' => Subscriber::latest()->paginate(50)]);
     }
 
     /**
@@ -20,21 +22,33 @@ class SubscriberController extends Controller
      */
     public function create()
     {
-        //
+        // Not used — subscription form lives in the footer/component
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Store a newly created subscriber (idempotent).
      */
     public function store(Request $request)
     {
-        $request->validate([
-            'email' => 'required|email|unique:subscribers,email',
+        $data = $request->validate([
+            'email' => ['required', 'email', 'max:255'],
         ]);
 
-        Subscriber::create(['email' => $request->email]);
+        $email = strtolower($data['email']);
 
-        return back()->with('success', 'Thank you for subscribing!');
+        try {
+            $subscriber = Subscriber::firstOrCreate(['email' => $email]);
+
+            if ($subscriber->wasRecentlyCreated) {
+                return redirect()->back()->with('success', 'Thank you for subscribing!');
+            }
+
+            return redirect()->back()->with('info', 'This email is already subscribed.');
+
+        } catch (\Exception $e) {
+            Log::error('Subscriber store failed: ' . $e->getMessage());
+            return redirect()->back()->with('error', 'Unable to subscribe at this time. Please try again later.');
+        }
     }
 
     /**
