@@ -2,7 +2,7 @@
 <div class="container mx-auto px-4 py-8">
     <div class="space-y-8 mb-10">
         <h1 class="text-4xl font-bold text-center mb-4">Photo Gallery</h1>
-     <img class="w-20 mx-auto" src="{{ asset('images/home/line.svg') }}" alt="">
+     <img class="w-20 md:w-[238px] mx-auto" src="{{ asset('images/home/line.svg') }}" alt="">
           
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">

@@ -1,7 +1,7 @@
 <div data-aos="fade-up" class="w-full mt-20">
     <div class="mx-auto max-w-7xl text-center mb-6">
         <x-h3 class="font-bold text-6xl">News and Media</x-h3>
-        <img src="{{ asset('images/home/line.svg') }}" alt="divider" class="mx-auto my-3">
+        <img class="w-20 md:w-[238px]" src="{{ asset('images/home/line.svg') }}" alt="divider" class="mx-auto my-3">
         <x-p class="fony-thin text-center p-4">Welcome to the News & Media section of Madu Alliance. Stay updated with the latest news, press releases, and media coverage about our company, projects, and initiatives.</x-p>
     </div>
 
