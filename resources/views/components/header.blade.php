@@ -16,12 +16,12 @@
                     </div>
                     <div class=" ">
         <div class="slick-carousel   overflow-x-hidden px-3">
-            <div class="p-1"><img src="{{ asset('images/home/carousel1.svg') }}" alt="Image 1"></div>
-            <div class="p-1"><img src="{{ asset('images/home/carousel2.svg') }}" alt="Image 2"></div>
-            <div class="p-1"><img src="{{ asset('images/home/carousel3.svg') }}" alt="Image 3"></div>
-            <div class="p-1"><img src="{{ asset('images/home/carousel4.svg') }}" alt="Image 3"></div>
-            <div class="p-1"><img src="{{ asset('images/home/carousel1.svg') }}" alt="Image 3"></div>
-            <div class="p-1"><img src="{{ asset('images/home/carousel2.svg') }}" alt="Image 3"></div>
+            <div class="p-1"><img src="{{ asset('images/home/carousel1.jpg') }}" alt="Image 1"></div>
+            <div class="p-1"><img src="{{ asset('images/home/carousel2.jpg') }}" alt="Image 2"></div>
+            <div class="p-1"><img src="{{ asset('images/home/carousel3.jpg') }}" alt="Image 3"></div>
+            <div class="p-1"><img src="{{ asset('images/home/carousel4.jpg') }}" alt="Image 3"></div>
+            <div class="p-1"><img src="{{ asset('images/home/carousel1.jpg') }}" alt="Image 3"></div>
+            <div class="p-1"><img src="{{ asset('images/home/carousel2.jpg') }}" alt="Image 3"></div>
         </div>
     </div>
     <!-- Always remember that you are absolutely unique. Just like everyone else. - Margaret Mead -->

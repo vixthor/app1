@@ -12,8 +12,8 @@
             </p>
         </div>
        <div class="flex flex-col md:flex-row items-center h-full">
-             <div class="flex flex-col h-full items-center  space-y-4">
-                <h1 class="font-bold px-4 py-2 text-center text-2xl text-black dark:text-gray-600">About Us</h1>
+             <div class="flex flex-col h-full px-4 py-2 items-center  space-y-4">
+                <h1 class="font-bold  text-center text-2xl text-black dark:text-gray-600">About Us</h1>
                 <x-nav-link >What we are</x-nav-link>
                 <x-nav-link>Financial Reviews</x-nav-link>
 
