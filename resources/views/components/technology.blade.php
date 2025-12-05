@@ -14,7 +14,7 @@
                 </div>
                 <div class="flex flex-col lg:flex-row  max-w-7xl mx-auto">
                     <div class="lg:w-1/3 w-full">
-                        <img  class="w-full h-full " src="{{ asset('images/home/tech1.svg') }}" alt="">
+                        <img  class="w-full h-full " src="{{ asset('images/home/tech1.jpg') }}" alt="">
                     </div>
                     <div class="flex flex-col lg:w-2/3 w-full justify-center ">
                         <x-p class="text-start font-bold px-2 py-3">Our exploration and production efforts are powered by advanced 3D seismic imaging and enhanced oil recovery techniques that allow us to extract resources efficiently while minimizing environmental disturbance.</x-p>
