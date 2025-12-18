@@ -3,8 +3,8 @@
                         <img class=" hidden md:block" src="{{ asset('images/home/Ellipse_308.svg') }}" alt="">
                         <h3 class="font-semibold text-center md:text-left  text-4xl px-3">{{ $title }}</h3>
                 </div>
-                 <div class="flex justify-between ">
-                        <p class="px-4 text-base text-center">{{ $slot }}</p>
+                 <div class="flex justify-between">
+                        <p class="px-4 text-base text-center md:text-start">{{ $slot }}</p>
                         <img class="hidden md:block" src="{{ asset('images/home/Vector_plus.svg') }}" alt="">
                  </div>
 </div>
